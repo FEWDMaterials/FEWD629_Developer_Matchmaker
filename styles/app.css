@@ -6,15 +6,29 @@ body{
     font-size: 20px;
     line-height: 1.5;
 }
-
 .buttonCol{
     width: 27.33%;
 }
-.boldLinks{
+.Title{
+    font-family: 'Merriweather';
     display: block;
-    flex-wrap: wrap;
+    color: yellow !important;
+   
 }
-
+.navigationOther{
+    margin-left: 10px;
+    padding: 20px 15px;
+    display: block;
+    color: white;
+    font-family: 'Oswald';
+}
+.navigationBold{
+    margin-left: 10px;
+    padding: 20px 15px;
+    display: block;
+    color: white;
+    font-family: 'Oswald';
+}
 .creationMenu{
     background-color: white;
 }
@@ -34,10 +48,7 @@ body{
 
 
 }
-.navLink{
-    display: block;
-    padding: 20px 15px;
-}
+
 .footer{
     margin-top: 20px;
     min-height: 10%;
@@ -62,7 +73,6 @@ body{
 }
 .card{
     font-family: 'Oswald';
-    border: 1px black solid;
     margin-top:30px;
     font-weight: 900;
     overflow: auto;
@@ -75,9 +85,10 @@ body{
 }
 
 .infoButton{
+    font-family: 'Oswald';
     display: block;
     flex-wrap: wrap;
-    background-color: grey;
+    background-color: lightgray;
     color:black !important;
     padding: 10px;
     text-transform: uppercase;
@@ -124,7 +135,6 @@ font-size: 25px;
     font-size: 200%;
 }
 .toprow{
-    flex-wrap: wrap;
     background-color: black;
 }
 .button{
@@ -146,7 +156,6 @@ font-size: 25px;
     width: calc(8.3333% - 4px);
     box-sizing: border-box;
     display: inline-block;
-    min-height: 50px;
 }
 
 .col-2 {
