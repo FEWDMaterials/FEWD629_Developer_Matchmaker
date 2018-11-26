@@ -1,0 +1,183 @@
+body{
+    width: 100%;
+    height: 100%;
+    font-family: Source Sans Pro;
+    background-color: black;
+    font-size: 20px;
+    line-height: 1.5;
+}
+.buttonCol{
+    width: 27.33%;
+}
+.Title{
+    font-family: 'Merriweather';
+    display: block;
+    color: yellow !important;
+   
+}
+.navigationOther{
+    margin-left: 10px;
+    padding: 20px 15px;
+    display: block;
+    color: white;
+    font-family: 'Oswald';
+}
+.navigationBold{
+    margin-left: 10px;
+    padding: 20px 15px;
+    display: block;
+    color: white;
+    font-family: 'Oswald';
+}
+.creationMenu{
+    background-color: white;
+}
+
+.create{
+    overflow: auto;
+    padding: 10px;
+}
+.create2{
+    float: center;
+    border-left: 1px solid gray;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+        box-sizing: border-box;
+
+
+}
+
+.footer{
+    margin-top: 20px;
+    min-height: 10%;
+    background-color: black;
+    color: white;
+}
+.footerText{
+    color:white;
+    background-color: black;
+    margin-top: 20px;
+}
+.cardText{
+    font-size: 20px;
+}
+.bgimg{
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    background-image: url('../images/coworking.jpg');
+    border: none;
+
+}
+.card{
+    font-family: 'Oswald';
+    margin-top:30px;
+    font-weight: 900;
+    overflow: auto;
+    float: right;
+    opacity: .9;
+    width: 35%;
+    height: 85%;
+    padding: 20px;
+    background-color: rgb(247, 239, 239);
+}
+
+.infoButton{
+    font-family: 'Oswald';
+    display: block;
+    flex-wrap: wrap;
+    background-color: lightgray;
+    color:black !important;
+    padding: 10px;
+    text-transform: uppercase;
+    box-shadow: 2px;
+}
+del{
+    color: gray;
+}
+ins{
+    text-decoration: none;
+    border-bottom: 2px solid yellow;
+}
+.graybackground{
+    width: 100%;
+    padding:20px;
+    background-color: rgb(196, 194, 194);
+    text-align: center;
+    font-family: Merriweather;
+    color:black;
+    font-weight: 900;
+}
+.smallnav{
+    padding-top: 100%;
+}
+a,a:hover,a:visited {
+    color: white;
+    text-decoration: none;
+}
+.topBorder{
+    border-bottom: 5px solid yellow;
+}
+
+.FindDevs{
+font-weight: bolder;
+font-size: 25px;
+}
+.pageTitle {
+    background-color: black;
+}
+.TitleText {
+    color:yellow;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 800;
+    font-size: 200%;
+}
+.toprow{
+    background-color: black;
+}
+.button{
+    flex-wrap: wrap;
+    font-family: 'Oswald';
+    color: black !important;
+    text-align: center;
+    background-color: yellow;
+    display: block;
+    padding: 12px;
+    border: 1px solid black;
+    float: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;   
+
+ 
+}
+.col {
+    width: calc(8.3333% - 4px);
+    box-sizing: border-box;
+    display: inline-block;
+}
+
+.col-2 {
+    width: calc(2 * 8.3333% - 4px);
+}
+
+.col-3 {
+    width: calc(3 * 8.3333% - 4px);
+}
+
+.col-4 {
+    width: calc(4 * 8.3333% - 4px);
+}
+
+.col-6 {
+    width: calc(6 * 8.3333% - 4px);
+}
+
+.col-8 {
+    width: calc(8 * 8.3333% - 4px);
+}
+
+.col-12 {
+    width: calc(12 * 8.3333% - 4px);
+}
