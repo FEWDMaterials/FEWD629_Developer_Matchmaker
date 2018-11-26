@@ -22,7 +22,6 @@ body {
 .row {
     display: flex;
     flex-wrap: wrap;
-    box-sizing: border-box;
 }
 
 .col {
@@ -332,6 +331,16 @@ img {
     flex: 1 1 0;
 }
 
+.tags2 a{
+    background: #666;
+    padding: 1px 7px;
+    border-radius: 100px;
+    font-size: 14.5px;
+    margin: 0 5px 5px 0;
+    color: white;
+    text-decoration: none;
+    display: block;
+}
 
 .dev {
     margin: 20px auto 10px auto ;
