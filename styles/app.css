@@ -11,7 +11,6 @@ html, body {
 }
 
 body {
-    min-height: 100%;
     font-family: "Source Sans Pro", sans-serif;
 }
 
@@ -281,15 +280,18 @@ ins {
     padding-top: 20px;
 }
 
-.test {
+.white-wrapper {
     justify-content: center;
     margin: 50px;
     box-sizing: border-box; 
     flex-wrap: nowrap;
 }
 
-.test > div {
-    flex: 1 1 0;
+.white-wrapper > .section {
+    width: calc(33.333333% - 40px);
+    margin: 10px;
+    padding: 10px;
+    word-break: break-all;
 }
 
 /*** DESIGNER/DEVELOPER PAGES ***/
