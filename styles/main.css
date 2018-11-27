@@ -1,0 +1,174 @@
+{
+    box-sizing: border-box;
+}
+ .row {
+    display: flex;
+    flex-wrap: wrap;
+}
+ .col {
+    width: calc(8.3333%);
+    
+    
+}
+ .col-2 {
+    width: calc(2 * 8.3333%);
+}
+ .col-3 {
+    width: calc(3 * 8.3333%);
+}
+ .col-4 {
+    width: calc(4 * 8.3333%);
+}
+ .col-6 {
+    width: calc(6 * 8.3333%);
+}
+ .col-8 {
+    width: calc(8 * 8.3333%);
+}
+ .col-12 {
+    width: calc(12 * 8.3333%);
+    
+}
+
+ body {
+    background-color: black;
+    margin: 0px;
+}
+ .right {
+    justify-content: flex-end;
+}
+ .width300 {
+    min-width: 300px;
+    color: yellow;
+}
+ .width150 {
+    min-width: 110px;
+}
+ .backgroundpic {
+    background-image: url("coworking.jpg");
+    background-size: cover;
+    
+}
+ .greybar {
+    font-style: italic;
+    background: #C6C6C6;
+    text-align: center;
+ }
+ .greybartext {
+     flex-wrap: wrap;
+     text-align: center;
+     margin: 2%;
+}
+ .page-nav-link {
+    text-decoration: none;
+}
+ .page-nav-link:hover {
+    color: yellow;
+    text-decoration: underline;
+}
+ .text {
+    color: white;
+}
+ .white {
+    background-color: rgba(255, 255, 255, .8);
+    box-shadow: 0 0 5px rgba(0, 0, 0, .75)
+}
+ .white-2 {
+    background-color: white;
+}
+ .noheight {
+    min-height: 0px;
+}
+ .underline {
+    border-bottom: 3px solid yellow;
+}
+ .movedown {
+    padding-top: 15px;
+    text-align: center;
+}
+ .border {
+    border-bottom: 4px solid yellow;
+}
+ .moveright {
+    margin-left: 15px;
+    padding-right: 10px;
+}
+ s {
+    color: #999;
+}
+ .boxmargin {
+    margin: 15px 20px 15px;
+    ;
+}
+ .padbox-top {
+    padding: 20px 20px 0 30px;
+}
+ .padbox-mid {
+    padding: 10px 20px 0 30px;
+}
+ .padbox-button {
+    padding: 15px 20px 0 30px;
+}
+ .button {
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: bold;
+    background: yellow;
+    color: black;
+    display: block;
+    text-align: center;
+    padding: 12px;
+    box-shadow: inset 0 -3px 0 rgba(0, 0, 0, .2);
+    border-radius: 5px;
+    margin: 12px;
+}
+ .flowover {
+    overflow: scroll;
+}
+ .maxheight {
+    max-height: 360px;
+}
+ .marg {
+    margin-bottom: 15px;
+    margin-right: 10px;
+}
+ .minwidth {
+    min-width: 150px;
+    ;
+}
+ .fonthead {
+    font-weight: bold;
+}
+ .grey {
+    background: #C6C6C6;
+}
+ .borderright {
+    border-right: 1px solid grey;
+}
+ .marginbottom {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 0 15px 0 15px;
+}
+ .head {
+    font-size: 30px;
+}
+ .navfont {
+    font-size: 15px;
+}
+ .greyfont {
+    font-size: 25px;
+    font-weight: bold;
+}
+ .meetfont {
+    font-weight: bold;
+    font-size: 20px;
+}
+ p {
+    margin: 0;
+}
+ .footerfont {
+    font-weight: bold;
+    padding: 15px 0 0 15px;
+} 
