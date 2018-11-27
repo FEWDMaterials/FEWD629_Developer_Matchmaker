@@ -1,0 +1,244 @@
+/*
+CSS Matchmaker
+*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+12-Column Grid 
+*/
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.row-2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
+}
+
+.header-logo {
+    min-width: 335px;
+}
+
+.col {
+    width: 8.3333%;
+}
+
+.col-2 {
+    width: calc(2 * 8.3333%);
+}
+
+.col-3 {
+    width: calc(3 * 8.3333%);
+}
+
+.col-4 {
+    width: calc(4 * 8.3333%);
+}
+
+.col-5 {
+    width: calc(5 * 8.3333%);
+}
+
+.col-6 {
+    width: calc(6 * 8.3333%);
+}
+
+.col-7 {
+    width: calc(7 * 8.3333%);
+}
+
+.col-8 {
+    width: calc(8 * 8.3333%);
+}
+
+.col-9 {
+    width: calc(9 * 8.3333%);
+}
+
+.col-10 {
+    width: calc(10 * 8.3333%);
+}
+
+.col-11 {
+    width: calc(11 * 8.3333%);
+}
+
+.col-12 {
+    width: calc(12 * 8.3333%);
+}
+
+/*
+Backgrounds and Colors
+*/
+
+.bg-img {
+    background-image: url('../images/coworking.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    flex: 0 1 auto;
+    overflow: hidden;
+}
+
+.black {
+    background-color: black;
+}
+
+.grey {
+    background-color: lightgrey;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.yellow-text {
+    color: yellow;
+}
+
+.white-text {
+    color: white;
+}
+
+/*
+Page Content Design
+*/
+
+.page-title {
+    font-family: 'Merriweather', serif;
+    font-weight: bold;
+}
+
+.page-header {
+    border-bottom: 5px solid yellow;
+    padding: 20px 20px;
+}
+
+.page-footer {
+    padding: 20px 0px 20px 20px;
+    align-content: center;
+}
+
+.footer-text {
+    font-size: 20px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+}
+
+.page-nav {
+    text-align: right;
+}
+
+.page-nav-li {
+    display: inline;
+    padding-left: 10;
+    padding-right: 10;
+    text-decoration: none;
+}
+
+.nav-link {
+    font-family: 'Oswald', serif;
+    font-weight: bolder;
+    font-size: 22px;
+    text-decoration: none;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.nav-link-2 {
+    font-family: 'Source Sans Pro', serif;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.content-middle {
+    margin: 0 auto;
+    padding: 22px 0px;
+    text-align: center;
+    border-top: thin solid rgb(172, 170, 170);
+    font-family: 'Merriweather', serif;
+    font-style: italic;
+}
+
+.content-right {
+    background-color: rgb(255, 255, 255, 0.8);
+    margin: 40px;
+    padding: 40px;
+    width: calc((5 * 8.3333%) - 40px);
+    box-shadow: 0 0 3px #444444;
+    flex: 1 1 auto;
+}
+
+.text-strikeout {
+    text-decoration-style: solid;
+}
+
+.content-right-text {
+    font-size: 20px;
+    font-family: 'Source Sans Pro', sans-serif;
+    line-height: 30px;
+    padding-top: 10px;
+}
+
+.content-right-title {
+    font-family: 'Source Sans Pro Bold', sans-serif;
+    font-weight: bolder;
+    font-size: 26px;
+}
+
+.content-columns {
+    padding: 40px;
+}
+
+.widget-title {
+    font-family: 'Merriweather', serif;
+    font-weight: bold;
+    font-size: 26px;
+}
+
+.verticalLine {
+    border-right: thin solid rgb(187, 185, 185);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.linkButton {
+    background-color: rgba(243, 243, 4, 1);
+    border-radius: 3px;
+	border-bottom: 4px solid rgb(230, 230, 6);
+	display: inline-block;
+	color: black;
+	font-family: 'Oswald', serif;
+    font-size: 20px;
+    font-weight: bolder;
+	padding: 10px 24px;
+	text-decoration: none;
+    text-shadow: 0px 1px 0px #444;
+    text-align: center;
+    width: 100%;
+}
+
+.linkButton.greyColor {
+    background-color: rgba(175, 174, 174, 1);
+    border-bottom: 4px solid rgb(100, 100, 100);
+}
+
+.top-text-line-through {
+    text-decoration: line-through; 
+    color: grey;
+}
+
+.top-text-underline {
+    text-decoration: underline; 
+    text-decoration-color: yellow
+}
