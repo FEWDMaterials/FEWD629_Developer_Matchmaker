@@ -7,34 +7,29 @@
 }
  .col {
     width: calc(8.3333%);
-    min-height: 50px;
-    /* border: solid white 1px; */
+    
+    
 }
  .col-2 {
     width: calc(2 * 8.3333%);
-    min-height: 50px;
 }
  .col-3 {
     width: calc(3 * 8.3333%);
-    min-height: 50px;
 }
  .col-4 {
     width: calc(4 * 8.3333%);
-    min-height: 50px;
 }
  .col-6 {
     width: calc(6 * 8.3333%);
-    min-height: 50px;
 }
  .col-8 {
     width: calc(8 * 8.3333%);
-    min-height: 50px;
 }
  .col-12 {
     width: calc(12 * 8.3333%);
-    min-height: 50px;
+    
 }
- /* my code */
+
  body {
     background-color: black;
     margin: 0px;
@@ -52,14 +47,17 @@
  .backgroundpic {
     background-image: url("coworking.jpg");
     background-size: cover;
-    /* min-height: 500px; */
+    
 }
  .greybar {
     font-style: italic;
     background: #C6C6C6;
-    padding-top: 15px;
-    padding-bottom: 15px;
     text-align: center;
+ }
+ .greybartext {
+     flex-wrap: wrap;
+     text-align: center;
+     margin: 2%;
 }
  .page-nav-link {
     text-decoration: none;
