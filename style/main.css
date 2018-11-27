@@ -1,0 +1,180 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+/* html, body{
+  width:100%;
+  height:100%;
+} */
+
+.row{
+  display: flex;
+  flex-wrap: nowrap;
+  background-color: black;
+  justify-content: space-evenly;
+}
+
+a {
+ color: white;
+ text-decoration: none;
+}
+
+.col {
+  width: 8.3333%;
+}
+
+.col-2 {
+  width: calc(2 * 8.3333%);
+}
+
+.col-7 {
+  width: calc(7 * 8.3333%);
+}
+
+.col-12 {
+  width: calc(12 * 8.3333%);
+}
+
+
+.page_title {
+  color:yellow;
+  font-family:"Merriweather";
+  font-size: 48px;
+  padding: 30px;
+}
+
+.navbar{
+  display: flex;
+  font-family: "Merriweather";
+  font-size: 28px;
+  color:white;
+  padding: 30px;
+  align-content: center;
+  /* justify-content: space-between; */
+  /* width: calc(8.3333% * 5); */
+  /* align-items: center; */
+}
+
+.navbar div {
+  padding:10px;
+}
+
+.header-styling{
+  border-bottom: 5px solid yellow;
+}
+
+a:hover {
+ color: yellow;
+}
+
+.bold {
+  font-weight: 800;
+}
+
+.catch-phrase{
+  text-align: center;
+  background-color: lightgray;
+  font-family: "Merriweather";
+  min-height:50px;
+  padding:10px;
+}
+
+del {
+  color: gray;
+}
+
+ins {
+  text-decoration: none;
+  border-bottom: 3px solid yellow;
+}
+
+/* .main-conatiner{
+  display: flex;
+  
+} */
+
+.banner{
+  display: flex;
+  background: url(../images/coworking.jpg) center center no-repeat;
+  background-size:cover; 
+  overflow: hidden;
+  justify-content: flex-end;
+  /* height: 600px; */
+}
+
+/* .main-container {
+  display: flex;
+  flex-wrap: wrap;
+} */
+
+.main-description-box {
+  display: flex;
+  flex-wrap: wrap;
+  border: 3px solid black;
+  width: calc(8.3333% * 4);
+  background-color: rgba(255,255,255, 0.7);
+  padding: 2%;
+  margin: 2%;
+  font-size: 28px;
+  line-height: 35px;
+  
+  /* text-align: center; */
+}
+
+.main-description-box button {
+  background-color:yellow;
+  /* box-shadow: 0px 3px 0px 0px #CBC63F; */
+  font-size: 16px;
+  padding:20px 30px;
+  margin: 50px 0 0 100px;
+}
+
+.action-container{
+  display:flex;
+  flex-wrap: nowrap;
+  font-family:sans-serif;
+  margin: 2%;
+}
+.action-container div{
+  padding:40px;
+  align-content: center;
+  border-right: 1px solid black;
+}
+
+.action-container div:last-child{
+  border-right: none;
+}
+
+.action-container h3{
+  font-family: 'Oswald';
+  font-size: 26px;
+  display: inline;
+}
+
+.action-container p{
+  font-family: "Oswald";
+  font-size:18px;
+}
+
+.action-container button{
+  background-color: gray;
+  font-family: 'Oswald';
+  font-size:18px;
+  align-content: center;
+  margin: auto;
+  border-radius: 4px;
+  padding:20px 30px;
+  margin: 50px;
+
+}
+
+.footer-container{
+  display: flex;
+  background-color: black;
+  color: white;
+  font-family: sans-serif;
+  font-size: 16px;
+  padding:10px;
+}
