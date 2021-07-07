@@ -1,0 +1,375 @@
+/*** GENERAL STRUCTURE ***/
+
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    font-family: "Source Sans Pro", sans-serif;
+}
+
+.container {
+    height: 100%;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col {
+        width: 8.3333%;
+        box-sizing: border-box;
+        display: inline-block;
+}
+
+.col-2 {
+    width: calc(2*8.3333%);
+
+}
+
+.col-3 {
+    width: calc(3*8.3333%);
+
+}
+
+.col-33 {
+    width: calc((10/3)*8.3333%);
+
+}
+
+.col-4 {
+    width: calc(4*8.3333%);
+
+}
+
+.col-5 {
+    width: calc(5*8.3333%);
+
+}
+.col-55 {
+    width: calc(5.5*8.3333%);
+
+}
+
+.col-6 {
+    width: calc(6*8.3333%);
+}
+
+.col-65 {
+    width: calc(6.5*8.3333%);
+}
+
+.col-7 {
+    width: calc(7*8.3333%);
+}
+
+.col-8 {
+    width: calc(8*8.3333%);
+}
+
+.col-10 {
+    width: calc(10*8.3333%);
+}
+
+.col-11 {
+    width: calc(11*8.3333%);
+}
+
+.col-12 {
+    width: calc(12*8.3333%);
+}
+
+.black {
+    background-color: black;
+}
+
+.border-yellow {
+    border-bottom: yellow solid 5px;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+nav {
+    margin-right: 55px;
+}
+
+.nav-link {
+    display: inline-block;
+    padding: 20px 15px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    line-height: 30px
+}
+
+.nav-link-bold {
+    font-family: "Oswald", sans-serif;
+    font-weight: 700;
+}
+
+.nav-link-thin {
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 400;
+}
+
+.logo {
+    color: yellow;
+    font-family: "Merriweather", serif;
+    font-size: 30px;
+    font-weight: 700;
+    text-decoration: none;
+    margin-right: auto;
+    margin-left: 50px;    
+}
+
+.button-yellow {
+    font-family: 'Oswald', sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    display: block;
+    font-weight: bold;
+    background: yellow;
+    color: black;
+    text-align: center;
+    padding: 12px;
+    box-shadow: inset 0 -3px 0 rgba(0,0,0,.2);
+    border-radius: 5px;
+    margin: 30px 45px 0 0;
+    font-size: 20px;
+    width: 100%
+}
+
+.nav-link:hover{
+    color: yellow;
+}
+
+.copyright {
+    color: white;
+    font-size: 20px;
+    line-height: 1.5;
+    font-family:"Source Sans Pro", sans-serif;
+    font-weight: 400;
+    margin: 25px 35px 25px 50px;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    display: inline-block;
+}
+
+/*** INDEX PAGE ***/
+
+.gray-box {
+    background-color:#c6c6c6;
+    border-top: 1px solid #AAA;
+    border-bottom: 1px solid #AAA;
+}
+
+.intro {
+    color: black;
+    font-style: italic;
+    font-family: 'Merriweather', serif;
+    font-size: 25px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 5px auto;
+}
+
+del {
+    display: inline-block;
+    color: #999;
+    text-decoration: line-through;
+    padding: 0;
+}
+
+ins {
+    text-decoration:none;
+    border-bottom: 4px solid yellow;
+    padding: 0;
+}
+
+.banner {
+    background: url(../assets/images/coworking.jpg) center center no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    padding-bottom: 45px;
+    box-shadow: inset 0 0 5px rgba(0,0,0,.75);
+}
+
+.box{
+    background: rgba(255,255,255,.8);
+    box-shadow: 0 0 5px rgba(0,0,0,.75);
+    padding: 0 0 30px 10px;
+    margin: 45px 75px 0 95px;
+    float: right;
+}
+
+.box-greeting {
+    font-weight: 700;
+    font-size: 30px;
+    margin: 35px 0 5px 0;
+}
+
+.box-description{
+    font-size: 20px;
+    line-height: 1.5;
+    margin: 5px 50px 0 0;
+}
+
+.button-gray {
+    font-family: 'Oswald', sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 700;
+    background: #c6c6c6;
+    color: black;
+    display: flex;
+    padding: 12px;
+    box-shadow: inset 0 -3px 0 rgba(0,0,0,.2);
+    border-radius: 5px;
+    margin: 25px 9% 0 9%;
+    width: 85%;
+    font-size: 20px;
+    justify-content: center;
+}
+
+.divider {
+    border-left:1px solid #c6c6c6; 
+    border-right:1px solid #c6c6c6;
+    font-weight: 400;
+}
+
+.sect {
+    margin: 40px 0;
+}
+
+.sect-header {
+    font-family: "Merriweather", serif;
+    font-weight: 700;
+    font-size: 28px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.sect-description {
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 20px;
+    margin-right: 5%;
+    font-weight: 400;
+    padding-left: 10%;
+    margin-top: 5px;
+}
+
+.grayC6 {
+    background-color: #c6c6c6;
+}
+
+.row-pad {
+    padding-top: 20px;
+}
+
+.white-wrapper {
+    justify-content: center;
+    margin: 50px;
+    box-sizing: border-box; 
+    flex-wrap: nowrap;
+}
+
+.white-wrapper > .section {
+    width: calc(33.333333% - 40px);
+    margin: 10px;
+    padding: 10px;
+    word-break: break-all;
+}
+
+/*** DESIGNER/DEVELOPER PAGES ***/
+
+.white-box{
+    background-color: white;
+    margin: 20px 5px;
+    width: 22%;
+    text-align: center;
+}
+
+img {
+    width: 92%;
+    margin-top: 10px;
+}
+
+.name { 
+    color:#363636;
+    display: block;
+    font-size: 20px;
+    font-family: "Source Sans Pro", sans-serif;
+    text-align: start;
+    font-weight: 400;
+    margin: 0 10px 5px 10px;
+    flex: 1 1 0;
+}
+
+.tags{
+    display: inline-block;
+}
+.tags a{
+    background: #666;
+    padding: 1px 12px;
+    border-radius: 100px;
+    font-size: 15px;
+    margin: 0 10px 10px 0;
+    color: white;
+    text-decoration: none;
+    flex: 1 1 0;
+}
+
+.tags2 a{
+    background: #666;
+    padding: 1px 7px;
+    border-radius: 100px;
+    font-size: 14.5px;
+    margin: 0 5px 5px 0;
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+
+.dev {
+    margin: 20px auto 10px auto ;
+    width: 93%;
+    font-size: 16px;
+    text-align: center;
+}
+
+.justify{
+    justify-content: space-evenly;
+}
+
+.just-align {
+    align-self: center;
+}
+
+.button-yellow > a {
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+
+.align {
+    margin-left: 10px;
+}
+
+.active {
+    background-color: #666;
+    pointer-events: none;
+}

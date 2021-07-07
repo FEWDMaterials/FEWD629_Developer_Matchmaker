@@ -1,8 +1,8 @@
 # Developer Matchmaker
 
-**[Completed Project](http://fewdmaterials.github.io/developer_matchmaker/)**
+**[Completed Project](https://oigwe.github.io/FEWD_Developer_Matchmaker/)**
 
-![asdfas](https://github.com/FEWDMaterials/FEWD_Developer_Matchmaker/blob/master/StartupMatchmaker.png?raw=true)
+![asdfas](https://oigwe.github.io/FEWD_Developer_Matchmaker/)
 
 ## Hero Image
 
